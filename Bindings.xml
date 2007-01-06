@@ -1,0 +1,20 @@
+<Bindings>
+  <Binding name="CONGLOMOMOD_SAY" description="Say chat" header="TekFunks">
+    ConglomoMod:OpenChatType("SAY")
+  </Binding>
+  <Binding name="CONGLOMOMOD_PARTY" description="Party chat" header="TekFunks">
+    ConglomoMod:OpenChatType("PARTY")
+  </Binding>
+  <Binding name="CONGLOMOMOD_GUILD" description="Guild chat" header="TekFunks">
+    ConglomoMod:OpenChatType("GUILD")
+  </Binding>
+  <Binding name="CONGLOMOMOD_OFFICER" description="Officer chat" header="TekFunks">
+    ConglomoMod:OpenChatType("OFFICER")
+  </Binding>
+  <Binding name="CONGLOMOMOD_RAID" description="Raid chat" header="TekFunks">
+    ConglomoMod:OpenChatType("RAID")
+  </Binding>
+	<Binding name="CONGLOMOMOD_SCRIPT" description="Script input" header="TekFunks">
+		ChatFrame_OpenChat("/script ")
+	</Binding>
+</Bindings>

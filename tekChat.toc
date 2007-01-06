@@ -1,0 +1,10 @@
+## Interface: 20003
+## Author: Tekkub Stoutwrithe
+## Title: tekChat
+## Notes: Misc chat stuff
+## OptionalDeps: FuBar, SpecialEvents, SpecialEventsEmbed, Metrognome
+
+ChatTypeBindings.lua
+Constants.lua
+Desalivate.lua
+NoSayLinks.lua
