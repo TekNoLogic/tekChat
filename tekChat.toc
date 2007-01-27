@@ -11,3 +11,4 @@ ChatTypeBindings.lua
 Constants.lua
 Desalivate.lua
 NoSayLinks.lua
+OMGSTFU.lua
