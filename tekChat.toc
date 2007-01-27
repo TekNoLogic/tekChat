@@ -12,3 +12,6 @@ Constants.lua
 Desalivate.lua
 NoSayLinks.lua
 OMGSTFU.lua
+Scroll.lua
+HideButtons.lua
+Timestamps.lua
