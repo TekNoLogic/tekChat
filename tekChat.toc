@@ -15,3 +15,4 @@ OMGSTFU.lua
 Scroll.lua
 HideButtons.lua
 Timestamps.lua
+Editbox.lua
