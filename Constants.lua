@@ -4,7 +4,10 @@ CHAT_FLAG_DND = "[DND] "
 CHAT_FLAG_GM = "[GM] "
 CHAT_GUILD_GET = "%s:\32" -- Guild message from player %s
 CHAT_RAID_GET = "%s:\32" -- Raid message from player %s
+CHAT_RAID_LEADER_GET = "%s:\32"
+CHAT_RAID_WARNING_GET = "%s [RW]:\32";
 CHAT_PARTY_GET = "%s:\32" -- Party message from player %s
+CHAT_PARTY_LEADER_GET = "%s:\32" -- Party leader message from player %s
 CHAT_WHISPER_GET = "%s:\32" -- Whisper from player %s
 CHAT_WHISPER_INFORM_GET = "To %s:\32" -- A whisper already sent to player %s
 
