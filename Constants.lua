@@ -1,4 +1,12 @@
 ﻿
+-- BATTLENET_NAME_FORMAT = "%1$s"
+BN_TOAST_TOP_OFFSET = 60
+BN_TOAST_LEFT_OFFSET = 30
+-- BN_TOAST_BOTTOM_OFFSET = -12
+-- BN_TOAST_RIGHT_OFFSET = -1
+
+-- /run BNToastFrame_AddToast(1, (BNGetFriendInfo(1)))
+
 CHAT_FRAME_TAB_NORMAL_NOMOUSE_ALPHA = 0
 CHAT_FRAME_TAB_SELECTED_NOMOUSE_ALPHA = 0
 
@@ -13,6 +21,8 @@ CHAT_PARTY_GET = "%s:\32" -- Party message from player %s
 CHAT_PARTY_LEADER_GET = "%s:\32" -- Party leader message from player %s
 CHAT_WHISPER_GET = "%s:\32" -- Whisper from player %s
 CHAT_WHISPER_INFORM_GET = "To %s:\32" -- A whisper already sent to player %s
+CHAT_BN_WHISPER_GET = "%s:\32"
+CHAT_BN_WHISPER_INFORM_GET = "To %s:\32"
 
 ChatTypeInfo["OFFICER"].sticky = 1
 ChatTypeInfo["YELL"].sticky = 1
