@@ -1,18 +1,18 @@
 <Bindings>
   <Binding name="TEKCHAT_SAY" description="Say chat" header="TekFunks">
-    TekChat_OpenChatType("SAY")
+    ChatFrame_OpenChat("/say ")
   </Binding>
   <Binding name="TEKCHAT_PARTY" description="Party chat" header="TekFunks">
     ChatFrame_OpenChat("/party ")
   </Binding>
   <Binding name="TEKCHAT_GUILD" description="Guild chat" header="TekFunks">
-    TekChat_OpenChatType("GUILD")
+		ChatFrame_OpenChat("/guild ")
   </Binding>
   <Binding name="TEKCHAT_OFFICER" description="Officer chat" header="TekFunks">
-    TekChat_OpenChatType("OFFICER")
+		ChatFrame_OpenChat("/officer ")
   </Binding>
   <Binding name="TEKCHAT_RAID" description="Raid chat" header="TekFunks">
-    TekChat_OpenChatType("RAID")
+    ChatFrame_OpenChat("/raid ")
   </Binding>
 	<Binding name="TEKCHAT_SCRIPT" description="Script input" header="TekFunks">
 		ChatFrame_OpenChat("/script ")
