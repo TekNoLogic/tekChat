@@ -1,6 +1,6 @@
 ﻿
 ChatFrameMenuButton:Hide()
-FriendsMicroButton:Hide()
+QuickJoinToastButton:Hide()
 
 for i=1,NUM_CHAT_WINDOWS do
 	_G["ChatFrame"..i]:SetClampRectInsets(0,0,0,0)
